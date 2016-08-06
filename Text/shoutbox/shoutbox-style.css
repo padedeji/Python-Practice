@@ -30,6 +30,9 @@ form {
 .forms {
   display: block;
   text-align: left;
-  margin-top: 50px;
   padding: 5px;
+}
+
+#topForm {
+  padding-top: 75px;
 }

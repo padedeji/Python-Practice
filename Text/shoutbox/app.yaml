@@ -1,4 +1,4 @@
-application: guestbook
+application: gae-shoutbox
 version: 1
 runtime: python27
 api_version: 1
@@ -9,9 +9,9 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /guestbook-style\.css
-  static_files: guestbook-style.css
-  upload: guestbook-style\.css
+- url: /shoutbox-style\.css
+  static_files: shoutbox-style.css
+  upload: shoutbox-style\.css
 
 - url: .*
   script: main.app
