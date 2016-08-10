@@ -1,14 +1,18 @@
 # A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
 def calculate(operator, n1, n2):
-    if operator not in "*-+/":
+    if operator not in "*-+/": #This calculator only does basic operations so anything past multiplication, subtraction, addition, and division is not accepted
         return input("Please enter a basic math operator. ")
-    elif operator == "*":
+
+    elif operator == "*": 
         return "%.i * %.i = %.i" % (n1, n2, n1*n2)
+
     elif operator == "-":
         return "%.i - %.i = %.i" % (n1, n2, n1-n2)
+
     elif operator == "+":
         return "%.i + %.i = %.i" % (n1, n2, n1+n2)
+
     elif operator == "/":
         return "%.i / %.i = %.i" % (n1, n2, n1/n2)
 
